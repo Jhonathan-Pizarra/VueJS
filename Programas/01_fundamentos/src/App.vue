@@ -1,9 +1,12 @@
+<!--5) Podemos usar la etiqueta "script" para introducir código de JavaScript-->
 <script>
   const numero = 10;
   export default {
     data: () => ({
       contador: 10,
     }),
+    //Los métods sirven para crear funciones y dar reactividad (que la app se actualize sin recargar la página (SPA)) a la app,
+    //Una SPA es una página reactiva, se renderiza por componentes
     methods: {
       saludar (){
         console.log("Hola Mundo!");
@@ -21,6 +24,12 @@
   };
 </script>
 
+<!--
+* Componentes en VUEJS
+* se les llama SFC (Single file component), son componentes (partes) que están encapsulados en 1 solo archivo
+* un archivo toene HTML+CSS+JS, del mismo modo funcionan los SFC
+* pero aqui se llaman etiquetas "templates", lo que esté dentro, es lo que veremos en la app
+* -->
 <!-- 1) Los tempalte es como el DOM donde se renderiza todo el HTML-->
 <template>
 
@@ -67,7 +76,7 @@ h2{
 button{
   cursor: pointer;
   font-size: 1.5rem;
-  margin: 0px, 12px;
+  margin: 0px 12px;
 }
 
 </style>
