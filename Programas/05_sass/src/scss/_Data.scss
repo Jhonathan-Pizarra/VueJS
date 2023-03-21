@@ -1,0 +1,33 @@
+.data{
+  text-align: center;
+}
+
+h2{
+  margin-top: 8px;
+  color: $gold;
+}
+
+h3{
+  font-size: 40px;
+
+  & .cripto{
+    color: $primery;
+  }
+
+  & .moneda{
+    color: $secondary;
+  }
+}
+
+img{
+  width: 300px;
+  height: 250px
+}
+
+p{
+  font-size: 40px;
+
+  & strong{
+    color: $gold;
+  }
+}
